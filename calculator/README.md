@@ -17,7 +17,6 @@ Supports standard arithmetic operations and allows input via **on-screen buttons
 
 ## Demo
 
-Check it out live here:  
 ``
 Check it out live here:  
 [Calculator](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/calculator/)
