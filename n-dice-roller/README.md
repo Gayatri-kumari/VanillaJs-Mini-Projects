@@ -24,7 +24,7 @@ A simple web app that rolls **any number of dice** at once. Enter how many dice 
 
 ## 🚀 Demo  
 
-🔗 [N Dice Roller]()
+🔗 [N Dice Roller](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/n-dice-roller/)
 
 ---
 
