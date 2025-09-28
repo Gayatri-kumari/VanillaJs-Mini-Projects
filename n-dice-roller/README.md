@@ -35,5 +35,3 @@ A simple web app that rolls **any number of dice** at once. Enter how many dice 
 - **JavaScript** – Dice roll logic and DOM manipulation  
 
 ---
-
- t clone https://github.com/YOUR_USERNAME/n-dice-roller.git
