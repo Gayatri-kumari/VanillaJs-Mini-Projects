@@ -7,7 +7,7 @@ Supports standard arithmetic operations and allows input via **on-screen buttons
 
 ## Features
 
-- Addition, subtraction, multiplication, division, square, cube and  few more operations
+- Addition, subtraction, multiplication, division, square, cube and few more operations
 - Input via **buttons** or **keyboard keys**  
 - Clear/Reset button to start a new calculation  
 - Responsive design for desktop and mobile  
@@ -18,7 +18,9 @@ Supports standard arithmetic operations and allows input via **on-screen buttons
 ## Demo
 
 Check it out live here:  
-`https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/calculator/`
+``
+Check it out live here:  
+[Calculator](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/calculator/)
 
 ---
 
