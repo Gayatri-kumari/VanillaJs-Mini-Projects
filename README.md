@@ -13,6 +13,7 @@ Each project is designed to help reinforce JavaScript fundamentals and demonstra
 | Calculator | Basic calculator supporting arithmetic operations. | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/calculator/) | - Perform addition, subtraction, multiplication, and division<br>- Input via buttons **or keyboard keys**<br>- Clear/Reset button<br>- Responsive design for desktop and mobile |
 | Clock | Basic digital clock, that lets you switch from 12hr to 24hr format | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/clock) | - Buttons to switch from 12hr to 24hr format<br> -Responsive Design<br> 
 | N Dice Roller | Basic app that lets you roll n dice | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/n-dice-roller) |  -Responsive Design with light animation<br> 
+| N Dice Roller | Mondrian art exercise from Angela Yu's web development bootcamp course | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/singleMondrianArt/painting_responsive.html) |  -Responsive Design<br> 
  
 ---
 
