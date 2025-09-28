@@ -7,10 +7,10 @@ Each project is designed to help reinforce JavaScript fundamentals and demonstra
 
 ## Projects Included
 
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| Random Password Generator | Generate secure random passwords with customizable length and character types. | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/random_password_generator/) |
-| Calculator | Basic calculator supporting arithmetic operations. | *(Add URL when deployed)* |
+| Project | Description | Live Demo | Key Features |
+|---------|-------------|-----------|-----------|
+| Random Password Generator | Generate secure random passwords with customizable length and character types. | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/random_password_generator/) | - Generate secure passwords with customizable length and character types<br>- Real-time password strength feedback<br>- Copy password to clipboard<br>- Responsive design |
+| Calculator | Basic calculator supporting arithmetic operations. | [View Demo](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/calculator/) | - Perform addition, subtraction, multiplication, and division<br>- Input via buttons **or keyboard keys**<br>- Clear/Reset button<br>- Responsive design for desktop and mobile |
  
 ---
 
