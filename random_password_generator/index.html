@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <div id="mainheading">
+        <H1>
+            Random password Generator
+        </H1>
+        <div id="tagline1" >
+            <span >Instantly generates a strong password</span>
+        </div>
+        <div >
+            <span id="tagline"></span>
+        </div>
+        </div>
+        <div id="maincontainer">
+            <div id="message">
+                <div id="password">
+                    <div id="mainpass"></div>
+                    <div id="copy" title="copy" onclick="copy()"><i class="fa fa-clone"></i></div>
+                    <div id="reload" onclick="generate()" title="reload"><i class="fa fa-repeat"></i></div>
+                </div>
+                <div id="passmsg"></div>
+            </div>
+            <div id="opt">
+                <div class="range">
+                    <input class="slider" id="myRange" type="range" min="0" max="50" value="8" title="max 50 characters">
+                    <span id="rangeval">character length</span>
+                </div>
+                <div class="options">
+                    <label class="custom-checkbox" title="Capital A-Z">
+                      <input type="checkbox" id="ABC" checked>
+                      <span class="checkmark"></span>
+                      ABC
+                    </label>
+
+                    <label class="custom-checkbox" title="Small a-z">
+                      <input type="checkbox" id="abc">
+                      <span class="checkmark"></span>
+                      abc
+                    </label>
+
+                    <label class="custom-checkbox" title="0-9">
+                      <input type="checkbox" id="_123">
+                      <span class="checkmark"></span>
+                      123
+                    </label>
+
+                    <label class="custom-checkbox" title="Symbols">
+                        <input type="checkbox" id="symbols">
+                        <span class="checkmark"></span>
+                        symbols
+                    </label>
+                </div>
+
+                <br/>
+                <button type="submit" class="submit" onclick="generate()">Generate</button>
+            </div>
+    </div>
+    </div>
+    <div class="passwordinfo">
+        <div class="whystrong">
+            <h2>Why Strong Passwords?</h2>
+            <ul>
+                <li><span class="liheading">hacking:</span> Strong passwords protect your accounts from brute-force and dictionary attacks.</li>
+                <li><span class="liheading">Keeps data private:</span> Whether it's banking, email, or social media — your info stays safe.</li>
+                <li><span class="liheading">Avoids identity theft:</span> A strong password reduces the chances of someone impersonating you.</li>
+                <li><span class="liheading">Blocks bots:</span> Bots often try common or leaked passwords. A strong one keeps them out.</li>
+            </ul>
+        </div>
+        <div class="tips">
+            <h2>Tips for Strong Passwords</h2>
+            <ul>
+                <li><span class="liheading">Use 12+ characters:</span> Longer passwords are much harder to crack.</li>
+                <li>Mix uppercase, lowercase, numbers, and symbols.</li>
+                <li>Avoid dictionary words, names, or dates.</li>
+                <li>Don't reuse passwords across multiple accounts.</li>
+                <li>Change your passwords regularly — especially after data breaches.</li>
+                <li>Use a password manager to store and generate secure passwords.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="disclaimer">Disclaimer : This tool does not store any data. Generated passwords are not saved. <br><br>kindly save them locally before exiting or reloading</div>
+   <footer>
+  <div class="footer-container">
+    <p>Made with 💻 by <a href="">Gayatri Kumari</a></p>
+    <p>Built using HTML, CSS, and JavaScript</p>
+    <p>
+      <a href="https://github.com/yourusername/random-password-generator" target="_blank">View on GitHub</a>
+    </p>
+    <p>
+        <a href="https://www.linkedin.com/in/gayatri-kumari-630279177/">Linkedin</a> | <a href="https://github.com/Gayatri-kumari">GitHub</a>
+    </p>
+    <p>Powered by Vanilla JS | &copy; 2025</p>
+  </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
