@@ -24,7 +24,7 @@ It’s fully responsive and built using **pure HTML & CSS** (no JavaScript).
 
 ## 🚀 Demo  
 
-🔗 [MONDRIAN]()
+🔗 [MONDRIAN](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/singleMondrianArt/painting_responsive.html)
 
 ---
 
