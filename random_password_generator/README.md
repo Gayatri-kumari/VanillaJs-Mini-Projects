@@ -1,5 +1,4 @@
 # Random Password Generator 🔐
-( https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/random_password_generator/ )
 
 A web application that allows users to generate **secure random passwords** by specifying:
 
@@ -7,9 +6,14 @@ A web application that allows users to generate **secure random passwords** by s
 - The **types of characters** to include (uppercase, lowercase, numbers, symbols)  
 
 The app also continuously provides **real-time feedback on password strength**, helping users create strong and secure passwords.
-
 ---
 
+## Demo
+
+Check it out live here:  
+[Random Password Generator](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/random_password_generator/)
+
+---
 ## Features
 
 - Customizable password length  
@@ -17,13 +21,6 @@ The app also continuously provides **real-time feedback on password strength**, 
 - Real-time password strength indicator  
 - Copy password to clipboard with a single click  
 - Responsive design for desktop and mobile  
-
----
-
-## Demo
-
-Check it out live here:  
-[Random Password Generator](https://gayatri-kumari.github.io/VanillaJs-Mini-Projects/random_password_generator/)
 
 ---
 
