@@ -1,0 +1,51 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.clock{
+    
+    font-size: 4.5rem; 
+}
+.clockampm{ 
+    backdrop-filter: blur(5px);
+}
+.hrformat12,.hrformat24
+{
+   
+    margin-top: 1em;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(229, 227, 227);
+    border: 0px solid rgb(229, 227, 227);
+    transition: all .1s ease-in-out;
+}
+.hrformat12:hover,.hrformat24:hover{
+cursor: pointer;
+transform: scale(1.1);
+background-color: rgb(234, 232, 232);
+}
+.active{  
+    background-color:rgba(72, 71, 71, 0.614) !important;
+    padding: 8px;
+    cursor: none !important;
+    transform: none !important;
+    color:rgb(211, 207, 207) !important;
+
+}
